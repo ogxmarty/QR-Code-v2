@@ -106,6 +106,10 @@ main{
 /* Media Queries */
 
 @media screen and (min-width: 1050px){
+  body{
+    height: fit-content;
+    overflow: hidden;
+  }
   .card-container{
     max-width: 25%;
     Height: 50%;
@@ -115,7 +119,7 @@ main{
     justify-content: center;
     padding: 1rem;
     background-color: white;
-    margin: 25rem 35rem;
+    margin: 8rem 35rem;
     border-radius: 1rem;
     }
 
